@@ -17,6 +17,7 @@ import spinner from '../assets/spinner.gif'
 
 function Detail() {
   const [state, dispatch] = useStoreContext();
+  
   const { id } = useParams();
 
   const [currentProduct, setCurrentProduct] = useState({});
